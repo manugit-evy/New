@@ -3,8 +3,8 @@ name: Testing github workflows
 on: push
 
 jobs:
- init:
- runs-on: ubuntu-lastest
- steps:
- - run: echo 'hello Moussa'
- - run: echo $HOSTNAME
+  init:
+    runs-on: ubuntu-lastest
+    steps:
+      - run: echo 'hello Moussa'
+      - run: echo $HOSTNAME
